@@ -1,0 +1,11 @@
+Debug/
+Release/
+example/build/
+example/*.arm9
+example/*.ds.gba
+example/*.elf
+example/*.nds
+*.exe
+*.ncb
+*.suo
+*.user
