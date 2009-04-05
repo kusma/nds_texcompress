@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8.00"
+	Version="8,00"
 	Name="nds_texcompress"
 	ProjectGUID="{8F3C76ED-877A-497E-B150-41A06C31C63F}"
 	RootNamespace="nds_texcompress"
@@ -171,7 +171,7 @@
 	</References>
 	<Files>
 		<Filter
-			Name="nds_texcompress.cpp"
+			Name="nds_texcompress"
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
