@@ -2,6 +2,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <vector>
+#include <climits>
 #include "image.h"
 
 FIBITMAP *loadImage(const char *filename)

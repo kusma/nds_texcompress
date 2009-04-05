@@ -1,5 +1,6 @@
 #pragma once
 #include <assert.h>
+#include <string.h>
 #include <FreeImage.h>
 
 class Image
