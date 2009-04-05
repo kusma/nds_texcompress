@@ -124,16 +124,11 @@ bool compressTexture(const char *filename)
 			assert(NULL != tileQuant.getFIBitmap());
 			
 			BITMAPINFO *info = FreeImage_GetInfo(tileQuant.getFIBitmap());
-//			printf("color %d\n", info->bmiHeader.);
 			colorCount = countUniqueColors(tileQuant.getFIBitmap());
 			int colorPadCount = colorCount;
-//			colorCount = ((colorCount + 1) / 2) * 2;
-//			printf("colors %d\n", colorCount);
 			
 			// add palette to global palette
 			RGBQUAD *pal = FreeImage_GetPalette(tileQuant.getFIBitmap());
-			
-			RGBQUAD lrp = colorLerp(pal[0], pal[3], 0.5);
 			
 			int blockMode = 2; // if all else fails
 			if (colorCount == 4)
