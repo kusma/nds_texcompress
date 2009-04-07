@@ -1,6 +1,6 @@
 CC = g++
 CPPFLAGS += -Iinclude
-LDLIBS = lib/FreeImage.lib
+LDLIBS = -Llib -lfreeimage
 
 OBJS = main.o compress_texture.o
 
