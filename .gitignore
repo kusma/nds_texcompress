@@ -9,3 +9,5 @@ example/*.nds
 *.ncb
 *.suo
 *.user
+*.o
+nds_texcompress
