@@ -153,7 +153,7 @@ bool compressTexture(const char *filename)
 			}
 			else if (colorCount == 3)
 			{
-				if (colorEqual(pal[1], colorLerp(pal[0], pal[2], 0.5), 31), 2*colorErr)
+				if (colorEqual(pal[1], colorLerp(pal[0], pal[2], 0.5), 2*colorErr))
 				{
 					lerpable++;
 					lerpColors[0] = pal[0];
